@@ -1,0 +1,126 @@
+@media (max-width: 1080px)
+	.footer-top
+		&__inner
+			padding: 20px
+
+@media (max-width: 1024px)
+	// More
+	.more
+		&__col
+			&_2
+				width: 100%
+			&_1
+				display: none
+	// Project
+	.project
+		&__background
+			display: none
+
+@media (max-width: 960px)
+	.project
+		&__inner
+			min-height: 600px
+	.culture
+		&__inner
+			min-height: 500px
+	.clients
+		&__inner
+			min-height: 600px
+	.clients-items
+		&__item
+			margin-bottom: 20px
+		&__img
+			display: none
+		&__message
+			max-width: 100%
+			margin: 0
+			&:before,
+			&:after
+				display: none
+	// Footer
+	.footer-bottom
+		&__inner
+			min-height: 200px
+			flex-direction: column-reverse
+		&__copyright
+			position: static
+			text-align: center
+		&__social
+			margin-bottom: 20px
+
+@media (max-width: 780px)
+	.footer-top
+		&__inner
+			flex-direction: column
+		&__col
+			width: 100%
+			margin-bottom: 20px
+	.project
+		&__desc
+			margin-bottom: 50px
+	.culture
+		&__desc
+			margin-bottom: 50px
+	.clients
+		&__desc
+			margin-bottom: 50px
+			
+@media (max-width: 768px)
+	// Header
+	.nav
+		display: none
+		flex-direction: column
+		position: absolute
+		right: 0
+		width: 100%
+		background-color: #fff
+		border: 1px solid rgba(#000, .2)
+		z-index: 999
+		text-align: center
+		&__link
+			padding: 20px 0
+		&__link:not(:first-child)
+			margin-left: 0
+		&_active
+			display: flex
+	.nav-toggle
+		display: block
+	// Partners
+	.partners
+		&__inner
+			flex-wrap: wrap
+		&__link
+			margin: 10px
+
+@media (max-width: 720px)
+	.culture-items
+		&__item
+			&:nth-child(2)
+				.culture-items__img:before,
+				.culture-items__img:after
+					display: none
+
+@media (max-width: 670px)
+	.hero
+		&__title
+			font-size: 50px
+	.main__title
+		font-size: 30px
+	.services
+		&__desc
+			margin-bottom: 30px
+	.services-items
+		flex-direction: column
+		&__item
+			width: 80%
+			margin: auto
+			margin-bottom: 30px
+	.culture-items
+		flex-direction: column
+		&__item
+			width: 70%
+			margin: auto
+			margin-bottom: 30px
+	.footer-top
+		&__item
+			font-size: 12px

@@ -1,0 +1,33 @@
+body {
+	font-family: Monteserrat;
+}
+
+@font-face {
+	font-family: Roboto slab;
+	src: url('../fonts/roboto slab/RobotoSlab-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Roboto slab;
+	src: url('../fonts/roboto slab/RobotoSlab-Bold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Monteserrat;
+	src: url('../fonts/montesarrat/Montserrat-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Monteserrat;
+	src: url('../fonts/montesarrat/Montserrat-SemiBold.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Monteserrat;
+	src: url('../fonts/montesarrat/Montserrat-Bold.ttf');
+	font-weight: 600;
+}

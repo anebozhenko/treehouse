@@ -1,0 +1,100 @@
+@media (max-width: 1080px) {
+  .footer-top__inner {
+    padding: 20px; } }
+
+@media (max-width: 1024px) {
+  .more__col_2 {
+    width: 100%; }
+  .more__col_1 {
+    display: none; }
+  .project__background {
+    display: none; } }
+
+@media (max-width: 960px) {
+  .project__inner {
+    min-height: 600px; }
+  .culture__inner {
+    min-height: 500px; }
+  .clients__inner {
+    min-height: 600px; }
+  .clients-items__item {
+    margin-bottom: 20px; }
+  .clients-items__img {
+    display: none; }
+  .clients-items__message {
+    max-width: 100%;
+    margin: 0; }
+    .clients-items__message:before, .clients-items__message:after {
+      display: none; }
+  .footer-bottom__inner {
+    min-height: 200px;
+    flex-direction: column-reverse; }
+  .footer-bottom__copyright {
+    position: static;
+    text-align: center; }
+  .footer-bottom__social {
+    margin-bottom: 20px; } }
+
+@media (max-width: 780px) {
+  .footer-top__inner {
+    flex-direction: column; }
+  .footer-top__col {
+    width: 100%;
+    margin-bottom: 20px; }
+  .project__desc {
+    margin-bottom: 50px; }
+  .culture__desc {
+    margin-bottom: 50px; }
+  .clients__desc {
+    margin-bottom: 50px; } }
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    text-align: center; }
+    .nav__link {
+      padding: 20px 0; }
+    .nav__link:not(:first-child) {
+      margin-left: 0; }
+    .nav_active {
+      display: flex; }
+  .nav-toggle {
+    display: block; }
+  .partners__inner {
+    flex-wrap: wrap; }
+  .partners__link {
+    margin: 10px; } }
+
+@media (max-width: 720px) {
+  .culture-items__item:nth-child(2) .culture-items__img:before,
+  .culture-items__item:nth-child(2) .culture-items__img:after {
+    display: none; } }
+
+@media (max-width: 670px) {
+  .hero__title {
+    font-size: 50px; }
+  .main__title {
+    font-size: 30px; }
+  .services__desc {
+    margin-bottom: 30px; }
+  .services-items {
+    flex-direction: column; }
+    .services-items__item {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 30px; }
+  .culture-items {
+    flex-direction: column; }
+    .culture-items__item {
+      width: 70%;
+      margin: auto;
+      margin-bottom: 30px; }
+  .footer-top__item {
+    font-size: 12px; } }
